@@ -1,0 +1,48 @@
+.main {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.section__header {
+    text-align: center;
+    letter-spacing: 0.02em;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.section__useful {
+    display: grid;
+    grid-template-rows: min-content 1fr 1fr 1fr;
+}
+
+.section {
+    padding: 30px;
+}
+
+.useful__item {
+    padding: 30px;
+    text-align: center;
+}
+
+.social-items {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.contact__item {
+    text-align: center;
+}
+
+.about-me__item {
+    text-align: center;
+    justify-items: center;
+}
+
+.about-me__list {
+    list-style: none;
+}
+
+
+

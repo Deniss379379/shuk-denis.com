@@ -1,0 +1,8 @@
+/* Box Model
+https://github.com/pepelsbey/playground/blob/master/24/styles/box-model.css*/
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
